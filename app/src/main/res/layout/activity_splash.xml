@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.zk.surfaceviewtest.MySurfaceView
+        android:layout_gravity="center"
+        android:id="@+id/splash_surface"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="24dp"
+        android:alpha="0.7"
+        android:background="#000"
+        android:padding="8dp"
+        android:text="立即体验"
+        android:textColor="#FFF"
+        android:textSize="18sp" />
+</RelativeLayout>
